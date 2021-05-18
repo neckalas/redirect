@@ -3,7 +3,7 @@ import redirect from 'nextjs-redirect'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-    const Redirect = redirect('https://github.com/neckalas')
+    const Redirect = redirect('http://www.transport24.ru/')
     return (
         <Redirect>
         <div className={styles.container}>
